@@ -10,10 +10,10 @@
 */
 
 const precoCombustivel = 5.79;
-const kmPorLitro = 10;
-const distanciaKm = 100;
+const kmPorLitro = 12;
+const distanciaKm = 1580;
 
 const litrosConsumidos = distanciaKm / kmPorLitro;
 const valorViagem = litrosConsumidos * precoCombustivel;
 
-console.log(valorViagem);
+console.log(valorViagem.toFixed(2));
