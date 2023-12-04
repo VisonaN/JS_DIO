@@ -2,10 +2,10 @@
 
 const numero = 0;
 
-const eNumeroPar = (numero % 2) === 0;
+const isNumeroPar = (numero % 2) === 0; // Por convenção, quando se trabalha com uma variável booleana (true or false) usa-se 'is' antes da variável, por ser um estado de é ou não é
 //console.log(eNumeroPar);
 
-if (eNumeroPar) {
+if (isNumeroPar) {
     console.log('Par')
 } else {
     console.log('Ímpar');
