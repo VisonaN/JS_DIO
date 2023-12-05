@@ -46,3 +46,7 @@ function main() {
 }
 
 main();
+
+// Funções no Js depois de declaradas viram objetos
+// Pode passar função como parâmetro de outra função
+// Pode reatribuir valores para uma função
