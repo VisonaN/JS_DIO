@@ -28,10 +28,12 @@ const { gets, print } = require('./funcoes_auxiliaresEx1');
 
 const mediaAluno = gets();
 
-if (mediaAluno < 5) {
+if (mediaAluno >= 0 && mediaAluno < 5) {
     print(`Sua média foi ${mediaAluno}, portanto você está Reprovado.`)
 } else if (mediaAluno >= 5 && mediaAluno < 7) {
     print(`Sua média foi ${mediaAluno}, portanto você está em Recuperação.`)
-} else {
+} else if (mediaAluno >= 7) {
     print(`Sua média foi ${mediaAluno}, portanto você está Aprovado.`)
+} else {
+    print(`Dado inválido`)
 }
