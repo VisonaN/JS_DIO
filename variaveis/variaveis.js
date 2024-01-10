@@ -1,4 +1,6 @@
-// VARIÁVEIS PODEM SER NOMEADAS COM LETRAS, UNDERLINE OU $
+// VARIÁVEIS PODEM SER NOMEADAS COM LETRAS (começa sempre com minúsculas), UNDERLINE (normalmente usada na nomenclatura de variáveis que indica que não vão sair do escopo) OU $
+
+// Normalmente quando vai declarar uma constante, deixar a palavra toda com letras maiúsculas para indicar que é uma constante
 
 // tem tres forma de declarar variáveis em JS => var, let e const
 // O JS vai ajustar os tipos e fazer os castings automaticamente para tentar resolver as operações que estamos fazendo
