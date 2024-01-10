@@ -1,3 +1,5 @@
+// VARIÁVEIS PODEM SER NOMEADAS COM LETRAS, UNDERLINE OU $
+
 // tem tres forma de declarar variáveis em JS => var, let e const
 // O JS vai ajustar os tipos e fazer os castings automaticamente para tentar resolver as operações que estamos fazendo
 // O JS é case-sensitive (o que é minúsculo tem que ser minúsculo e o que é maiúsculo tem que ser maiúsculo), se declarar uma variável escrita de uma forma, na hora de chamar a variável tem que chamar ela da mesma forma se não dá erro. Ex: var Teste = 1, na hora de chamar a variável de novo tem que chamar Teste e não teste (com o T em minúscula)
